@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObengAmpem's Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="media/portfolio.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><i class="fas fa-code"></i> ObengAmpem</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link cta-link">Contact</a></li>
+            </ul>
+
+            <!-- THEME TOGGLE BUTTON -->
+            <button class="theme-toggle" id="themeToggle" title="Toggle Light/Dark Mode">
+                <i class="fas fa-sun"></i>
+            </button>
+
+            <!-- HAMBURGER MENU -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Obeng Ampem Godfred</span></h1>
+            <p>I am <span class="typing"></span></p>
+            
+            <p class="hero-subtitle">Crafting beautiful, responsive web experiences with cutting-edge technologies. I turn ideas into interactive digital solutions that engage and inspire.</p>
+            
+            <a href="#projects" class="btn">View My Work</a>
+            
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://github.com/obengampemgodfred-hash/" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/godfred-obeng-ampem-7868513a3/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/2330201891196" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:obengampem15@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <img src="media/kobbhe.jpg" alt="Hero Image">
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        
+        <div class="about-container">
+            <!-- Profile Image -->
+            <div class="about-image">
+                <img src="media/kobbhe.jpg" alt="Obeng Ampem Godfred">
+            </div>
+            
+            <!-- About Content -->
+            <div class="about-content">
+                <p>
+                    Hi! I'm Obeng Ampem Godfred, a UI/UX enthusiast and Front-End Developer passionate about creating beautiful, intuitive digital experiences. With a strong foundation in web technologies and design principles, I specialize in building responsive websites that not only look great but also provide seamless user interactions.
+                </p>
+                
+                <p>
+                    I believe that great design and functionality go hand-in-hand. My approach combines modern web development practices with user-centered design to deliver solutions that exceed expectations. I'm constantly learning and staying updated with the latest industry trends and technologies.
+                </p>
+                
+                <!-- Stats -->
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+                
+                <!-- Key Strengths -->
+                <div class="about-strengths">
+                    <h3>Key Strengths</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Responsive Web Design</li>
+                        <li><i class="fas fa-check-circle"></i> UI/UX Design</li>
+                        <li><i class="fas fa-check-circle"></i> Interactive Web Applications</li>
+                        <li><i class="fas fa-check-circle"></i> Frontend Development</li>
+                    </ul>
+                </div>
+                
+                <!-- Resume Download Button -->
+                <a href="#" class="btn btn-secondary" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+
+        <!-- Frontend Skills -->
+        <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend Development</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                    <span class="proficiency">75%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                    <span class="proficiency">70%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                    <span class="proficiency">85%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                    <span class="proficiency">80%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Design Skills -->
+        <div class="skill-category">
+            <h3><i class="fas fa-palette"></i> Design</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <span>UI/UX Design</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 88%"></div>
+                    </div>
+                    <span class="proficiency">88%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-image"></i>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 92%"></div>
+                    </div>
+                    <span class="proficiency">92%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tools & Technologies -->
+        <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fab fa-github"></i>
+                        <span>Git/GitHub</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 87%"></div>
+                    </div>
+                    <span class="proficiency">87%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-terminal"></i>
+                        <span>Web Development</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 86%"></div>
+                    </div>
+                    <span class="proficiency">86%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-list">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/portfolio1.jpg" alt="Project One">
+                    <div class="project-overlay">
+                        <button class="project-link view-live-btn" data-image="media/portfolio1.jpg" data-title="Project One">View Live</button>
+                        <a href="https://github.com/obengampemgodfred-hash/" class="project-link github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project One</h3>
+                    <p>A modern website built with HTML, CSS and JavaScript.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/portfolio2.jpg" alt="Project Two">
+                    <div class="project-overlay">
+                        <button class="project-link view-live-btn" data-image="media/portfolio2.jpg" data-title="Project Two">View Live</button>
+                        <a href="https://github.com/obengampemgodfred-hash/" class="project-link github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project Two</h3>
+                    <p>Responsive mobile-first layout design.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">React</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/portfolio3.jpg" alt="Project Three">
+                    <div class="project-overlay">
+                        <button class="project-link view-live-btn" data-image="media/portfolio3.jpg" data-title="Project Three">View Live</button>
+                        <a href="https://github.com/obengampemgodfred-hash/" class="project-link github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project Three</h3>
+                    <p>An interactive UI prototype app.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">UI/UX</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>I'd love to hear from you. Feel free to reach out with any questions or opportunities!</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:obengampem15@gmail.com">obengampem15@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+233539606974">+233 539 606 974</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Obuasi, Ghana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message"><i class="fas fa-message"></i> Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+                
+                <!-- Success Message -->
+                <div class="success-message" id="successMessage">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Thank you! Your message has been sent successfully. I'll get back to you soon!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2026 ObengAmpem — All Rights Reserved.</p>
+            
+            <!-- Footer Social Links -->
+            <div class="footer-social">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/233123456789" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:your-email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- IMAGE LIGHTBOX MODAL -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="" alt="Project" class="lightbox-image" id="lightboxImage">
+            <p class="lightbox-title" id="lightboxTitle"></p>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
